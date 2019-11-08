@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-plugin-pnp",
+  "version": "1.0.0",
+  "description": "Adds support for Yarn Plug'n'Play to Vue CLI projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sodatea/vue-cli-plugin-pnp.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "yarn",
+    "pnp"
+  ],
+  "author": "Haoqun Jiang",
+  "license": "MIT",
+  "dependencies": {
+    "pnp-webpack-plugin": "^1.5.0"
+  }, 
+  "peerDependencies": {
+    "@vue/cli-service": ">= 4.1.0-beta.0"
+  }
+}
